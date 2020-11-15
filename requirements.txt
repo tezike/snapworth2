@@ -18,3 +18,4 @@ fastprogress
 tqdm
 uvloop
 httptools
+requests
