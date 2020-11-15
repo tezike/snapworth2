@@ -19,6 +19,7 @@ image_vecs/
 data/mens*.csv
 data/t*.csv
 data/v*.csv
+data/p*.csv
 #image_vecs/
 snapworth/image_vecs/
 snapworth/data/
