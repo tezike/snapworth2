@@ -17,6 +17,8 @@ weight*/
 data/images/
 image_vecs/
 data/mens*.csv
+data/t*.csv
+data/v*.csv
 #image_vecs/
 snapworth/image_vecs/
 snapworth/data/
