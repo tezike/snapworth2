@@ -13,7 +13,7 @@ fastapi==0.61.1
 uvicorn==0.12.1
 gunicorn
 python-multipart==0.0.5
-albumentations
+albumentations==0.4.6
 fastprogress
 tqdm
 uvloop
