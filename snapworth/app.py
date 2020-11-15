@@ -51,7 +51,7 @@ app = FastAPI()
 
 DEVICE = config.DEVICE
 MODEL = models.SnapModel().to(DEVICE)
-UPLOAD_FOLDER = os.path.join(config.STATIC_PATH)
+UPLOAD_FOLDER = os.path.join(config.DATA_PATH)  #the temp files will be saved here. Think about changing to STATIC_PATH
 
 file_id = "1Z2a0Gp-f6kOFVGSbfEUA7Fb3IfglaWja" #Id for gdrive file... image_vecs/index
 destination = config.IMAGE_VECS_PATH/'index'
