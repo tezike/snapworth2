@@ -1,0 +1,2 @@
+runtime: python3.7
+entrypoint: gunicorn -w 1 -k uvicorn.workers.UvicornWorker snapworth.app:app
